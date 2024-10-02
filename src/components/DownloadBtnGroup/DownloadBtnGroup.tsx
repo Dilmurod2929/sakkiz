@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./download-btn-group.module.css";
+import Image from "next/image";
 
 const DownloadBtnGroup = () => {
   return (
@@ -10,28 +11,28 @@ const DownloadBtnGroup = () => {
       <div className={styles.btns_all}>
         <div className={styles.btns}>
           <a className={styles.download_btn} href="#">
-            <img
+            <Image
               src="/images/download-btn-group/app-store.svg"
               alt="App Store"
             />
           </a>
           <a className={styles.download_btn} href="#">
-            <img
+            <Image
               src="/images/download-btn-group/googlePlay.svg"
               alt="Google Play"
             />
           </a>
           <a className={styles.download_btn} href="#">
-            <img
+            <Image
               src="/images/download-btn-group/appGallery.svg"
               alt="App Gallery"
             />
           </a>
           <a className={styles.download_btn} href="#">
-            <img src="/images/download-btn-group/macOs.svg" alt="macOS" />
+            <Image src="/images/download-btn-group/macOs.svg" alt="macOS" />
           </a>
           <a className={styles.download_btn} href="#">
-            <img src="/images/download-btn-group/windows.svg" alt="Windows" />
+            <Image src="/images/download-btn-group/windows.svg" alt="Windows" />
           </a>
         </div>
       </div>

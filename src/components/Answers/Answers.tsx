@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./answers.module.css";
 
 interface AnswersProps {
   title: string;
