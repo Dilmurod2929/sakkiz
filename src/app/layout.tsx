@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://sakkiz.netlify.app",
     images: [
       {
-        url: "https://sakkiz.netlify.app/public/test.png",
+        url: "https://sakkiz.netlify.app/test.png",
         width: 1200,
         height: 630,
         alt: "Sakkiz Logo",
