@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     description:
       "Stay connected with Sakkiz's fast messaging and unique features that enhance your communication experience.",
     type: "website",
-    url: "",
+    url: "https://sakkiz.netlify.app",
     images: [
       {
-        url: "",
+        url: "https://sakkiz.netlify.app/test.png",
         width: 1200,
         height: 630,
         alt: "Sakkiz Logo",
