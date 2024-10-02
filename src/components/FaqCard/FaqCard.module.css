@@ -1,0 +1,32 @@
+.card {
+  width: 360px;
+  height: 344px;
+}
+.card_title {
+  margin: 18px 0;
+  color: var(--natural-);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.card_question {
+  display: flex;
+  flex-direction: column;
+}
+.question_link {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+@media (max-width: 744px) {
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}

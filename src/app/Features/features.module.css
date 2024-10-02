@@ -1,0 +1,18 @@
+.section {
+  padding: 30px 0;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1128px) {
+  .cards {
+    justify-content: center;
+  }
+}
